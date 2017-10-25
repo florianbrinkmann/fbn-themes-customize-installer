@@ -1,0 +1,18 @@
+{
+  "name": "florianbrinkmann/customize-themes-installer",
+  "description": "Adds the possibility to browse the premium themes from Florian Brinkmann in the customizer, to preview and to install them",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Florian Brinkmann",
+      "email": "kontakt@florianbrinkmann.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FlorianBrinkmann\\CustomizeThemesInstaller\\": "src/"
+    }
+  },
+  "require": {}
+}
