@@ -28,8 +28,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 require_once 'vendor/autoload.php';
 
-use FlorianBrinkmann\CustomizeThemesInstaller\Plugin;
-
 // Create instance of plugin and run it.
 ( new Plugin() )
 	->register();
