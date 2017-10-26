@@ -20,17 +20,11 @@ class ComposerStaticInit9efc31ec61f732bbf0a3d3de6ae52f62
         ),
     );
 
-    public static $classMap = array (
-        'FlorianBrinkmann\\CustomizeThemesInstaller\\Customize' => __DIR__ . '/../..' . '/src/Customize.php',
-        'FlorianBrinkmann\\CustomizeThemesInstaller\\Plugin' => __DIR__ . '/../..' . '/src/Plugin.php',
-    );
-
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit9efc31ec61f732bbf0a3d3de6ae52f62::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit9efc31ec61f732bbf0a3d3de6ae52f62::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit9efc31ec61f732bbf0a3d3de6ae52f62::$classMap;
 
         }, null, ClassLoader::class);
     }

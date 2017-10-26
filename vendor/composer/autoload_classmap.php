@@ -6,6 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'FlorianBrinkmann\\CustomizeThemesInstaller\\Customize' => $baseDir . '/src/Customize.php',
-    'FlorianBrinkmann\\CustomizeThemesInstaller\\Plugin' => $baseDir . '/src/Plugin.php',
 );
