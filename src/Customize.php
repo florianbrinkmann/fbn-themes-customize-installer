@@ -17,7 +17,7 @@ namespace FlorianBrinkmann\CustomizeThemesInstaller;
 class Customize {
 
 	/**
-	 * Register function.
+	 * Register method.
 	 */
 	public function register() {
 		// Register customize controls.
